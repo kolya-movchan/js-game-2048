@@ -12,9 +12,6 @@ Such logical operators s as && and || I used extensively throughout the code to 
 ## Math.floor(), Math.random()
 The Math.floor() method was used in the mix with Math.random() to round down the result of division operations to ensure that we always get a whole number of the tile on the game board. I used the Math.random() method to generate random numbers for new tiles numbers that appeared on the board.
 
-## Array [2, 2, 2, 2, 2, 4, 2, 2, 2, 2] 
-This approach has been used to get a chance of the number 4 as 1:10 or 10%.
-
 ## Loops
 Loops were used extensively throughout the code to iterate over the game board and perform various operations on the tiles. For example, I used one, but complex loop inside of the function that accepts multiple parameters to check whether a tile could be moved in a particular direction (vertically and horizontally) and to generate or remove new tiles when necessary.
 
